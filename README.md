@@ -102,6 +102,13 @@ cd mmsegmentation/
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 PORT=29501 ./tools/dist_train.sh configs/pspnet/pspnet_r50-d8_test_cityscapes_aspp.py 8
 ```
 
+### Depth-wise ASPP Module
+
+```
+cd mmsegmentation/
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 PORT=29501 ./tools/dist_train.sh configs/pspnet/pspnet_r50-d8_test_cityscapes_d_aspp.py 8
+```
+
 ## Experiments
 
 - I conduct experiments on the [Cityscapes Fine Annotations](https://www.cityscapes-dataset.com/examples/#fine-annotations) dataset.
@@ -114,30 +121,30 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 PORT=29501 ./tools/dist_train.sh configs/ps
 
 ### Class-wise
 
-| Class         | IoU (PPM)  | IoU (ASPP)  | Acc (PPM)   | Acc (ASPP)  |
-----------------|------------|-------------|-------------|-------------|
-| road          | 96.45      | 96.45       | 97.57       | 97.57       |
-| sidewalk      | 78.2       | 78.2        | 90.34       | 90.34       |
-| building      | 89.29      | 89.29       | 94.47       | 94.47       |
-| wall          | 33.16      | 33.16       | 41.4        | 41.4        |
-| fence         | 52.93      | 52.93       | 67.58       | 67.58       |
-| pole          | 57.13      | 57.13       | 68.19       | 68.19       |
-| traffic light | 63.92      | 63.92       | 77.72       | 77.72       |
-| traffic sign  | 72.36      | 72.36       | 82.57       | 82.57       |
-| vegetation    | 91.14      | 91.14       | 96.29       | 96.29       |
-| terrain       | 60.41      | 60.41       | 72.82       | 72.82       |
-| sky           | 92.5       | 92.5        | 97.34       | 97.34       |
-| person        | 77.19      | 77.19       | 88.5        | 88.5        |
-| rider         | 51.03      | 51.03       | 65.08       | 65.08       |
-| car           | 92.3       | 92.3        | 97.2        | 97.2        |
-| truck         | 46.44      | 46.44       | 56.71       | 56.71       |
-| bus           | 61.7       | 61.7        | 71.36       | 71.36       |
-| train         | 37.39      | 37.39       | 76.65       | 76.65       |
-| motorcycle    | 55.29      | 55.29       | 68.57       | 68.57       |
-| bicycle       | 72.83      | 72.83       | 88.13       | 88.13       |
+| Class         | IoU (PPM)  | IoU (ASPP)  | IoU (Depth-wise ASPP)  | Acc (PPM)   | Acc (ASPP)  | Acc (Depth-wise ASPP)  |
+----------------|------------|-------------|------------------------|-------------|-------------|------------------------|
+| road          | 96.45      | -----       | -----                  | 97.57       | -----       | -----                  |
+| sidewalk      | 78.2       | -----       | -----                  | 90.34       | -----       | -----                  |
+| building      | 89.29      | -----       | -----                  | 94.47       | -----       | -----                  |
+| wall          | 33.16      | -----       | -----                  | 41.4        | -----       | -----                  |
+| fence         | 52.93      | -----       | -----                  | 67.58       | -----       | -----                  |
+| pole          | 57.13      | -----       | -----                  | 68.19       | -----       | -----                  |
+| traffic light | 63.92      | -----       | -----                  | 77.72       | -----       | -----                  |
+| traffic sign  | 72.36      | -----       | -----                  | 82.57       | -----       | -----                  |
+| vegetation    | 91.14      | -----       | -----                  | 96.29       | -----       | -----                  |
+| terrain       | 60.41      | -----       | -----                  | 72.82       | -----       | -----                  |
+| sky           | 92.5       | -----       | -----                  | 97.34       | -----       | -----                  |
+| person        | 77.19      | -----       | -----                  | 88.5        | -----       | -----                  |
+| rider         | 51.03      | -----       | -----                  | 65.08       | -----       | -----                  |
+| car           | 92.3       | -----       | -----                  | 97.2        | -----       | -----                  |
+| truck         | 46.44      | -----       | -----                  | 56.71       | -----       | -----                  |
+| bus           | 61.7       | -----       | -----                  | 71.36       | -----       | -----                  |
+| train         | 37.39      | -----       | -----                  | 76.65       | -----       | -----                  |
+| motorcycle    | 55.29      | -----       | -----                  | 68.57       | -----       | -----                  |
+| bicycle       | 72.83      | -----       | -----                  | 88.13       | -----       | -----                  |
 
 ### Average over the classes
 
-| Scope  | mIoU (PPM)  | mIoU (ASPP) | mAcc (PPM) | mAcc (ASPP)| aAcc (PPM) | aAcc (ASPP)|
-|--------|-------------|-------------|------------|------------|------------|------------|
-| global | 67.46       | 67.46       | 78.87      | 78.87      | 94.28      | 94.28      |
+| Scope  | mIoU (PPM)  | mIoU (ASPP) | mIoU (Depth-wise ASPP)| mAcc (PPM) | mAcc (ASPP)| mAcc (Depth-wise ASPP)|
+|--------|-------------|-------------|-----------------------|------------|------------|-----------------------|
+| global | 67.46       | -----       | -----                 | 78.87      | -----      | -----                 |
