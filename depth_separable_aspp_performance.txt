@@ -1,0 +1,564 @@
+2021-01-01 06:55:12,851 - mmseg - INFO - Loaded 2975 images
+2021-01-01 06:55:13,459 - mmseg - INFO - Loaded 500 images
+2021-01-01 06:55:13,459 - mmseg - INFO - Start running, host: jj@shi-03, work_dir: /workspace/jj/mmsegmentation/work_dirs/pspnet_r50-d8_test_cityscapes_aspp_d
+2021-01-01 06:55:13,459 - mmseg - INFO - workflow: [('train', 1)], max: 10000 iters
+2021-01-01 06:55:32,425 - mmseg - INFO - Iter [50/10000]        lr: 9.956e-03, eta: 0:54:39, time: 0.330, data_time: 0.006, memory: 9147, decode.loss_seg: 1.7928, decode.acc_seg: 39.9836, aux.loss_seg: 0.8320, aux.acc_seg: 32.7932, loss: 2.6247
+2021-01-01 06:55:45,082 - mmseg - INFO - Iter [100/10000]       lr: 9.912e-03, eta: 0:48:04, time: 0.253, data_time: 0.002, memory: 9147, decode.loss_seg: 1.2430, decode.acc_seg: 58.6830, aux.loss_seg: 0.5714, aux.acc_seg: 53.6996, loss: 1.8144
+2021-01-01 06:55:57,826 - mmseg - INFO - Iter [150/10000]       lr: 9.867e-03, eta: 0:45:50, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 1.1398, decode.acc_seg: 59.9849, aux.loss_seg: 0.4970, aux.acc_seg: 57.7048, loss: 1.6369
+2021-01-01 06:56:10,609 - mmseg - INFO - Iter [200/10000]       lr: 9.823e-03, eta: 0:44:38, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 1.0133, decode.acc_seg: 65.8519, aux.loss_seg: 0.4712, aux.acc_seg: 61.6399, loss: 1.4845
+2021-01-01 06:56:23,372 - mmseg - INFO - Iter [250/10000]       lr: 9.778e-03, eta: 0:43:49, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 1.0652, decode.acc_seg: 63.3025, aux.loss_seg: 0.4834, aux.acc_seg: 59.6678, loss: 1.5486
+2021-01-01 06:56:36,159 - mmseg - INFO - Iter [300/10000]       lr: 9.733e-03, eta: 0:43:13, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.9278, decode.acc_seg: 65.3190, aux.loss_seg: 0.4266, aux.acc_seg: 61.4660, loss: 1.3543
+2021-01-01 06:56:48,928 - mmseg - INFO - Iter [350/10000]       lr: 9.688e-03, eta: 0:42:43, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.8135, decode.acc_seg: 69.5157, aux.loss_seg: 0.3717, aux.acc_seg: 66.7871, loss: 1.1852
+2021-01-01 06:57:04,951 - mmseg - INFO - Iter [400/10000]       lr: 9.644e-03, eta: 0:43:36, time: 0.320, data_time: 0.067, memory: 9147, decode.loss_seg: 0.8682, decode.acc_seg: 68.7476, aux.loss_seg: 0.3906, aux.acc_seg: 65.7250, loss: 1.2588
+2021-01-01 06:57:17,688 - mmseg - INFO - Iter [450/10000]       lr: 9.599e-03, eta: 0:43:03, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.8745, decode.acc_seg: 68.7585, aux.loss_seg: 0.3900, aux.acc_seg: 66.6089, loss: 1.2645
+2021-01-01 06:57:30,391 - mmseg - INFO - Iter [500/10000]       lr: 9.554e-03, eta: 0:42:34, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.7297, decode.acc_seg: 71.2362, aux.loss_seg: 0.3481, aux.acc_seg: 67.9972, loss: 1.0778
+2021-01-01 06:57:43,136 - mmseg - INFO - Iter [550/10000]       lr: 9.509e-03, eta: 0:42:08, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.6821, decode.acc_seg: 72.5820, aux.loss_seg: 0.3140, aux.acc_seg: 70.4373, loss: 0.9961
+2021-01-01 06:57:55,780 - mmseg - INFO - Iter [600/10000]       lr: 9.465e-03, eta: 0:41:43, time: 0.253, data_time: 0.002, memory: 9147, decode.loss_seg: 0.8583, decode.acc_seg: 69.6531, aux.loss_seg: 0.3936, aux.acc_seg: 66.7379, loss: 1.2519
+2021-01-01 06:58:08,489 - mmseg - INFO - Iter [650/10000]       lr: 9.420e-03, eta: 0:41:21, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.7341, decode.acc_seg: 72.1651, aux.loss_seg: 0.3313, aux.acc_seg: 69.5023, loss: 1.0654
+2021-01-01 06:58:21,211 - mmseg - INFO - Iter [700/10000]       lr: 9.375e-03, eta: 0:41:01, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.7377, decode.acc_seg: 71.4788, aux.loss_seg: 0.3502, aux.acc_seg: 68.5610, loss: 1.0879
+2021-01-01 06:58:37,245 - mmseg - INFO - Iter [750/10000]       lr: 9.330e-03, eta: 0:41:22, time: 0.321, data_time: 0.063, memory: 9147, decode.loss_seg: 0.7063, decode.acc_seg: 72.2465, aux.loss_seg: 0.3264, aux.acc_seg: 69.4954, loss: 1.0326
+2021-01-01 06:58:49,890 - mmseg - INFO - Iter [800/10000]       lr: 9.285e-03, eta: 0:41:00, time: 0.253, data_time: 0.002, memory: 9147, decode.loss_seg: 0.6967, decode.acc_seg: 74.1637, aux.loss_seg: 0.3312, aux.acc_seg: 71.2786, loss: 1.0279
+2021-01-01 06:59:02,563 - mmseg - INFO - Iter [850/10000]       lr: 9.240e-03, eta: 0:40:39, time: 0.253, data_time: 0.002, memory: 9147, decode.loss_seg: 0.6960, decode.acc_seg: 73.1084, aux.loss_seg: 0.3314, aux.acc_seg: 70.4684, loss: 1.0274
+2021-01-01 06:59:15,294 - mmseg - INFO - Iter [900/10000]       lr: 9.195e-03, eta: 0:40:19, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.6657, decode.acc_seg: 73.8033, aux.loss_seg: 0.3152, aux.acc_seg: 71.3512, loss: 0.9809
+2021-01-01 06:59:28,016 - mmseg - INFO - Iter [950/10000]       lr: 9.150e-03, eta: 0:40:01, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.7019, decode.acc_seg: 72.3451, aux.loss_seg: 0.3221, aux.acc_seg: 70.1252, loss: 1.0240
+2021-01-01 06:59:40,822 - mmseg - INFO - Saving checkpoint at 1000 iterations
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>] 500/500, 0.3 task/s, elapsed: 1630s, ETA:     0s^[[B
+
+2021-01-01 07:28:12,836 - mmseg - INFO - per class results:
+2021-01-01 07:28:12,837 - mmseg - INFO - 
++---------------+-------+-------+
+| Class         | IoU   | Acc   |
++---------------+-------+-------+
+| road          | 79.26 | 81.09 |
+| sidewalk      | 49.02 | 80.09 |
+| building      | 71.1  | 92.92 |
+| wall          | 0.49  | 0.5   |
+| fence         | 21.99 | 27.89 |
+| pole          | 34.6  | 38.77 |
+| traffic light | 30.23 | 33.15 |
+| traffic sign  | 45.21 | 64.07 |
+| vegetation    | 76.33 | 80.64 |
+| terrain       | 12.91 | 57.49 |
+| sky           | 80.35 | 94.46 |
+| person        | 62.14 | 78.98 |
+| rider         | 1.13  | 1.13  |
+| car           | 80.58 | 95.61 |
+| truck         | 0.0   | 0.0   |
+| bus           | 1.29  | 1.38  |
+| train         | 0.0   | 0.0   |
+| motorcycle    | 0.0   | 0.0   |
+| bicycle       | 54.1  | 76.78 |
++---------------+-------+-------+
+2021-01-01 07:28:12,837 - mmseg - INFO - Summary:
+2021-01-01 07:28:12,837 - mmseg - INFO - 
++--------+-------+-------+-------+
+| Scope  | mIoU  | mAcc  | aAcc  |
++--------+-------+-------+-------+
+| global | 36.88 | 47.63 | 81.95 |
++--------+-------+-------+-------+
+2021-01-01 07:28:13,103 - mmseg - INFO - Exp name: pspnet_r50-d8_test_cityscapes_aspp_d.py
+2021-01-01 07:28:13,103 - mmseg - INFO - Iter(val) [1000]       mIoU: 0.3688, mAcc: 0.4763, aAcc: 0.8195
+2021-01-01 07:28:25,841 - mmseg - INFO - Iter [1050/10000]      lr: 9.060e-03, eta: 4:40:44, time: 34.481, data_time: 34.229, memory: 9147, decode.loss_seg: 0.6965, decode.acc_seg: 72.8637, aux.loss_seg: 0.3248, aux.acc_seg: 70.0642, loss: 1.0213
+2021-01-01 07:28:38,609 - mmseg - INFO - Iter [1100/10000]      lr: 9.015e-03, eta: 4:28:11, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.6357, decode.acc_seg: 74.7561, aux.loss_seg: 0.3034, aux.acc_seg: 72.1824, loss: 0.9391
+2021-01-01 07:28:54,796 - mmseg - INFO - Iter [1150/10000]      lr: 8.970e-03, eta: 4:17:10, time: 0.324, data_time: 0.067, memory: 9147, decode.loss_seg: 0.5919, decode.acc_seg: 74.3938, aux.loss_seg: 0.2873, aux.acc_seg: 71.6677, loss: 0.8792
+2021-01-01 07:29:07,415 - mmseg - INFO - Iter [1200/10000]      lr: 8.925e-03, eta: 4:06:36, time: 0.252, data_time: 0.002, memory: 9147, decode.loss_seg: 0.6557, decode.acc_seg: 73.9784, aux.loss_seg: 0.3054, aux.acc_seg: 71.3882, loss: 0.9610
+2021-01-01 07:29:20,231 - mmseg - INFO - Iter [1250/10000]      lr: 8.880e-03, eta: 3:56:53, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.6467, decode.acc_seg: 73.8783, aux.loss_seg: 0.3060, aux.acc_seg: 71.4166, loss: 0.9527
+2021-01-01 07:29:32,986 - mmseg - INFO - Iter [1300/10000]      lr: 8.835e-03, eta: 3:47:54, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.6082, decode.acc_seg: 75.3729, aux.loss_seg: 0.2932, aux.acc_seg: 72.2185, loss: 0.9014
+2021-01-01 07:29:45,728 - mmseg - INFO - Iter [1350/10000]      lr: 8.790e-03, eta: 3:39:33, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.5858, decode.acc_seg: 75.2047, aux.loss_seg: 0.2925, aux.acc_seg: 71.8023, loss: 0.8783
+2021-01-01 07:29:58,504 - mmseg - INFO - Iter [1400/10000]      lr: 8.744e-03, eta: 3:31:48, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.5889, decode.acc_seg: 76.6921, aux.loss_seg: 0.2776, aux.acc_seg: 73.8322, loss: 0.8665
+2021-01-01 07:30:11,316 - mmseg - INFO - Iter [1450/10000]      lr: 8.699e-03, eta: 3:24:34, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.6385, decode.acc_seg: 75.6639, aux.loss_seg: 0.3036, aux.acc_seg: 72.6239, loss: 0.9421
+2021-01-01 07:30:27,363 - mmseg - INFO - Iter [1500/10000]      lr: 8.654e-03, eta: 3:18:06, time: 0.321, data_time: 0.068, memory: 9147, decode.loss_seg: 0.5826, decode.acc_seg: 75.8590, aux.loss_seg: 0.2802, aux.acc_seg: 72.8184, loss: 0.8628
+2021-01-01 07:30:40,062 - mmseg - INFO - Iter [1550/10000]      lr: 8.608e-03, eta: 3:11:44, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.5966, decode.acc_seg: 76.8860, aux.loss_seg: 0.2785, aux.acc_seg: 74.2973, loss: 0.8751
+2021-01-01 07:30:52,752 - mmseg - INFO - Iter [1600/10000]      lr: 8.563e-03, eta: 3:05:45, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.6208, decode.acc_seg: 75.8099, aux.loss_seg: 0.2929, aux.acc_seg: 73.2875, loss: 0.9137
+2021-01-01 07:31:05,540 - mmseg - INFO - Iter [1650/10000]      lr: 8.518e-03, eta: 3:00:08, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.5859, decode.acc_seg: 75.6071, aux.loss_seg: 0.2901, aux.acc_seg: 72.3733, loss: 0.8760
+2021-01-01 07:31:18,290 - mmseg - INFO - Iter [1700/10000]      lr: 8.472e-03, eta: 2:54:50, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.5343, decode.acc_seg: 77.9500, aux.loss_seg: 0.2642, aux.acc_seg: 74.9979, loss: 0.7985
+2021-01-01 07:31:30,995 - mmseg - INFO - Iter [1750/10000]      lr: 8.427e-03, eta: 2:49:48, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.5525, decode.acc_seg: 77.2072, aux.loss_seg: 0.2757, aux.acc_seg: 73.8496, loss: 0.8282
+2021-01-01 07:31:43,707 - mmseg - INFO - Iter [1800/10000]      lr: 8.382e-03, eta: 2:45:03, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.5395, decode.acc_seg: 77.9104, aux.loss_seg: 0.2704, aux.acc_seg: 74.5167, loss: 0.8099
+2021-01-01 07:31:56,588 - mmseg - INFO - Iter [1850/10000]      lr: 8.336e-03, eta: 2:40:33, time: 0.258, data_time: 0.002, memory: 9147, decode.loss_seg: 0.5865, decode.acc_seg: 74.5689, aux.loss_seg: 0.2873, aux.acc_seg: 71.4372, loss: 0.8739
+2021-01-01 07:32:12,627 - mmseg - INFO - Iter [1900/10000]      lr: 8.291e-03, eta: 2:36:31, time: 0.321, data_time: 0.061, memory: 9147, decode.loss_seg: 0.5947, decode.acc_seg: 74.9149, aux.loss_seg: 0.2896, aux.acc_seg: 71.7451, loss: 0.8843
+2021-01-01 07:32:25,453 - mmseg - INFO - Iter [1950/10000]      lr: 8.245e-03, eta: 2:32:26, time: 0.257, data_time: 0.002, memory: 9147, decode.loss_seg: 0.5263, decode.acc_seg: 78.8127, aux.loss_seg: 0.2667, aux.acc_seg: 75.4221, loss: 0.7931
+2021-01-01 07:32:38,147 - mmseg - INFO - Saving checkpoint at 2000 iterations
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>] 500/500, 0.3 task/s, elapsed: 1624s, ETA:     0s^[[B
+
+2021-01-01 08:01:07,447 - mmseg - INFO - per class results:
+2021-01-01 08:01:07,448 - mmseg - INFO - 
++---------------+-------+-------+
+| Class         | IoU   | Acc   |
++---------------+-------+-------+
+| road          | 91.71 | 94.33 |
+| sidewalk      | 64.8  | 79.43 |
+| building      | 78.56 | 85.94 |
+| wall          | 5.83  | 5.97  |
+| fence         | 30.62 | 48.42 |
+| pole          | 45.39 | 56.96 |
+| traffic light | 39.72 | 45.23 |
+| traffic sign  | 33.89 | 82.64 |
+| vegetation    | 82.74 | 93.3  |
+| terrain       | 42.14 | 68.45 |
+| sky           | 85.82 | 94.97 |
+| person        | 65.96 | 81.62 |
+| rider         | 19.54 | 21.13 |
+| car           | 84.39 | 94.05 |
+| truck         | 0.0   | 0.0   |
+| bus           | 16.53 | 51.5  |
+| train         | 0.04  | 0.04  |
+| motorcycle    | 0.79  | 0.79  |
+| bicycle       | 60.96 | 84.55 |
++---------------+-------+-------+
+2021-01-01 08:01:07,448 - mmseg - INFO - Summary:
+2021-01-01 08:01:07,448 - mmseg - INFO - 
++--------+-------+-------+-------+
+| Scope  | mIoU  | mAcc  | aAcc  |
++--------+-------+-------+-------+
+| global | 44.71 | 57.33 | 88.52 |
++--------+-------+-------+-------+
+2021-01-01 08:01:07,708 - mmseg - INFO - Exp name: pspnet_r50-d8_test_cityscapes_aspp_d.py
+2021-01-01 08:01:07,708 - mmseg - INFO - Iter(val) [2000]       mIoU: 0.4471, mAcc: 0.5733, aAcc: 0.8852
+2021-01-01 08:01:20,384 - mmseg - INFO - Iter [2050/10000]      lr: 8.154e-03, eta: 4:14:28, time: 34.431, data_time: 34.180, memory: 9147, decode.loss_seg: 0.5415, decode.acc_seg: 78.0716, aux.loss_seg: 0.2637, aux.acc_seg: 75.2365, loss: 0.8052
+2021-01-01 08:01:33,055 - mmseg - INFO - Iter [2100/10000]      lr: 8.108e-03, eta: 4:07:39, time: 0.253, data_time: 0.002, memory: 9147, decode.loss_seg: 0.5471, decode.acc_seg: 77.4193, aux.loss_seg: 0.2678, aux.acc_seg: 74.4738, loss: 0.8149
+2021-01-01 08:01:45,795 - mmseg - INFO - Iter [2150/10000]      lr: 8.063e-03, eta: 4:01:08, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.5335, decode.acc_seg: 77.6661, aux.loss_seg: 0.2666, aux.acc_seg: 74.2807, loss: 0.8001
+2021-01-01 08:01:58,526 - mmseg - INFO - Iter [2200/10000]      lr: 8.017e-03, eta: 3:54:54, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.5015, decode.acc_seg: 78.5090, aux.loss_seg: 0.2548, aux.acc_seg: 74.9255, loss: 0.7563
+2021-01-01 08:02:14,649 - mmseg - INFO - Iter [2250/10000]      lr: 7.971e-03, eta: 3:49:08, time: 0.322, data_time: 0.064, memory: 9147, decode.loss_seg: 0.5036, decode.acc_seg: 76.7724, aux.loss_seg: 0.2491, aux.acc_seg: 73.9186, loss: 0.7526
+2021-01-01 08:02:27,395 - mmseg - INFO - Iter [2300/10000]      lr: 7.926e-03, eta: 3:43:25, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.5090, decode.acc_seg: 77.1130, aux.loss_seg: 0.2494, aux.acc_seg: 74.2206, loss: 0.7584
+2021-01-01 08:02:40,054 - mmseg - INFO - Iter [2350/10000]      lr: 7.880e-03, eta: 3:37:56, time: 0.253, data_time: 0.002, memory: 9147, decode.loss_seg: 0.5799, decode.acc_seg: 76.0337, aux.loss_seg: 0.2767, aux.acc_seg: 73.0230, loss: 0.8565
+2021-01-01 08:02:52,777 - mmseg - INFO - Iter [2400/10000]      lr: 7.834e-03, eta: 3:32:40, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.5279, decode.acc_seg: 78.7218, aux.loss_seg: 0.2628, aux.acc_seg: 75.0339, loss: 0.7907
+2021-01-01 08:03:05,496 - mmseg - INFO - Iter [2450/10000]      lr: 7.788e-03, eta: 3:27:37, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4856, decode.acc_seg: 78.3734, aux.loss_seg: 0.2514, aux.acc_seg: 74.5674, loss: 0.7369
+2021-01-01 08:03:18,221 - mmseg - INFO - Iter [2500/10000]      lr: 7.743e-03, eta: 3:22:45, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4704, decode.acc_seg: 80.4036, aux.loss_seg: 0.2359, aux.acc_seg: 77.2780, loss: 0.7063
+2021-01-01 08:03:31,027 - mmseg - INFO - Iter [2550/10000]      lr: 7.697e-03, eta: 3:18:04, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.5420, decode.acc_seg: 77.4856, aux.loss_seg: 0.2632, aux.acc_seg: 74.2740, loss: 0.8052
+2021-01-01 08:03:43,769 - mmseg - INFO - Iter [2600/10000]      lr: 7.651e-03, eta: 3:13:34, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.5469, decode.acc_seg: 77.5000, aux.loss_seg: 0.2679, aux.acc_seg: 74.1574, loss: 0.8147
+2021-01-01 08:03:59,913 - mmseg - INFO - Iter [2650/10000]      lr: 7.605e-03, eta: 3:09:22, time: 0.323, data_time: 0.070, memory: 9147, decode.loss_seg: 0.5182, decode.acc_seg: 77.5455, aux.loss_seg: 0.2538, aux.acc_seg: 74.5945, loss: 0.7720
+2021-01-01 08:04:12,664 - mmseg - INFO - Iter [2700/10000]      lr: 7.559e-03, eta: 3:05:11, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4622, decode.acc_seg: 79.1680, aux.loss_seg: 0.2379, aux.acc_seg: 75.5700, loss: 0.7001
+2021-01-01 08:04:25,335 - mmseg - INFO - Iter [2750/10000]      lr: 7.513e-03, eta: 3:01:07, time: 0.253, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4724, decode.acc_seg: 79.3214, aux.loss_seg: 0.2353, aux.acc_seg: 76.2513, loss: 0.7077
+2021-01-01 08:04:38,120 - mmseg - INFO - Iter [2800/10000]      lr: 7.467e-03, eta: 2:57:12, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4475, decode.acc_seg: 81.0464, aux.loss_seg: 0.2323, aux.acc_seg: 77.5139, loss: 0.6799
+2021-01-01 08:04:50,781 - mmseg - INFO - Iter [2850/10000]      lr: 7.421e-03, eta: 2:53:25, time: 0.253, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4939, decode.acc_seg: 77.8258, aux.loss_seg: 0.2388, aux.acc_seg: 75.2556, loss: 0.7327
+2021-01-01 08:05:03,467 - mmseg - INFO - Iter [2900/10000]      lr: 7.375e-03, eta: 2:49:45, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4819, decode.acc_seg: 78.5602, aux.loss_seg: 0.2485, aux.acc_seg: 75.0719, loss: 0.7303
+2021-01-01 08:05:16,206 - mmseg - INFO - Iter [2950/10000]      lr: 7.329e-03, eta: 2:46:12, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4723, decode.acc_seg: 77.6166, aux.loss_seg: 0.2420, aux.acc_seg: 74.0257, loss: 0.7143
+2021-01-01 08:05:32,316 - mmseg - INFO - Saving checkpoint at 3000 iterations
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>] 500/500, 0.3 task/s, elapsed: 1625s, ETA:     0s[[B
+
+2021-01-01 08:34:00,396 - mmseg - INFO - per class results:
+2021-01-01 08:34:00,396 - mmseg - INFO - 
++---------------+-------+-------+
+| Class         | IoU   | Acc   |
++---------------+-------+-------+
+| road          | 90.54 | 91.71 |
+| sidewalk      | 62.61 | 84.86 |
+| building      | 79.41 | 83.86 |
+| wall          | 10.95 | 11.5  |
+| fence         | 41.32 | 53.42 |
+| pole          | 46.28 | 60.76 |
+| traffic light | 21.38 | 70.95 |
+| traffic sign  | 51.42 | 77.94 |
+| vegetation    | 84.37 | 95.61 |
+| terrain       | 35.84 | 76.59 |
+| sky           | 83.24 | 97.46 |
+| person        | 66.64 | 81.42 |
+| rider         | 32.39 | 47.08 |
+| car           | 78.8  | 96.06 |
+| truck         | 0.15  | 0.15  |
+| bus           | 7.03  | 7.15  |
+| train         | 11.44 | 60.58 |
+| motorcycle    | 21.03 | 26.69 |
+| bicycle       | 55.6  | 90.54 |
++---------------+-------+-------+
+2021-01-01 08:34:00,397 - mmseg - INFO - Summary:
+2021-01-01 08:34:00,397 - mmseg - INFO - 
++--------+-------+-------+-------+
+| Scope  | mIoU  | mAcc  | aAcc  |
++--------+-------+-------+-------+
+| global | 46.34 | 63.91 | 88.22 |
++--------+-------+-------+-------+
+2021-01-01 08:34:00,651 - mmseg - INFO - Exp name: pspnet_r50-d8_test_cityscapes_aspp_d.py
+2021-01-01 08:34:00,651 - mmseg - INFO - Iter(val) [3000]       mIoU: 0.4634, mAcc: 0.6391, aAcc: 0.8822
+^[[B2021-01-01 08:34:13,293 - mmseg - INFO - Iter [3050/10000]  lr: 7.236e-03, eta: 3:43:49, time: 34.405, data_time: 34.155, memory: 9147, decode.loss_seg: 0.4734, decode.acc_seg: 77.0239, aux.loss_seg: 0.2413, aux.acc_seg: 73.5980, loss: 0.7147
+2021-01-01 08:34:26,063 - mmseg - INFO - Iter [3100/10000]      lr: 7.190e-03, eta: 3:39:05, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4940, decode.acc_seg: 78.7683, aux.loss_seg: 0.2420, aux.acc_seg: 75.3890, loss: 0.7360
+2021-01-01 08:34:38,886 - mmseg - INFO - Iter [3150/10000]      lr: 7.144e-03, eta: 3:34:31, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4736, decode.acc_seg: 78.4731, aux.loss_seg: 0.2364, aux.acc_seg: 75.5960, loss: 0.7100
+2021-01-01 08:34:51,750 - mmseg - INFO - Iter [3200/10000]      lr: 7.098e-03, eta: 3:30:05, time: 0.257, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4340, decode.acc_seg: 79.9796, aux.loss_seg: 0.2187, aux.acc_seg: 76.5361, loss: 0.6526
+2021-01-01 08:35:04,535 - mmseg - INFO - Iter [3250/10000]      lr: 7.051e-03, eta: 3:25:46, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4886, decode.acc_seg: 79.5346, aux.loss_seg: 0.2463, aux.acc_seg: 76.1632, loss: 0.7349
+2021-01-01 08:35:17,292 - mmseg - INFO - Iter [3300/10000]      lr: 7.005e-03, eta: 3:21:35, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.5080, decode.acc_seg: 78.5658, aux.loss_seg: 0.2503, aux.acc_seg: 74.9523, loss: 0.7583
+2021-01-01 08:35:33,372 - mmseg - INFO - Iter [3350/10000]      lr: 6.959e-03, eta: 3:17:37, time: 0.322, data_time: 0.065, memory: 9147, decode.loss_seg: 0.4429, decode.acc_seg: 80.5579, aux.loss_seg: 0.2267, aux.acc_seg: 77.2837, loss: 0.6696
+2021-01-01 08:35:46,086 - mmseg - INFO - Iter [3400/10000]      lr: 6.912e-03, eta: 3:13:40, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4707, decode.acc_seg: 78.7594, aux.loss_seg: 0.2333, aux.acc_seg: 75.8263, loss: 0.7040
+2021-01-01 08:35:58,736 - mmseg - INFO - Iter [3450/10000]      lr: 6.866e-03, eta: 3:09:49, time: 0.253, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3890, decode.acc_seg: 81.8786, aux.loss_seg: 0.2050, aux.acc_seg: 78.7183, loss: 0.5940
+2021-01-01 08:36:11,475 - mmseg - INFO - Iter [3500/10000]      lr: 6.819e-03, eta: 3:06:04, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4587, decode.acc_seg: 79.1559, aux.loss_seg: 0.2277, aux.acc_seg: 75.9974, loss: 0.6864
+2021-01-01 08:36:24,175 - mmseg - INFO - Iter [3550/10000]      lr: 6.773e-03, eta: 3:02:25, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4737, decode.acc_seg: 79.7301, aux.loss_seg: 0.2408, aux.acc_seg: 76.2462, loss: 0.7145
+2021-01-01 08:36:36,918 - mmseg - INFO - Iter [3600/10000]      lr: 6.726e-03, eta: 2:58:52, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4596, decode.acc_seg: 79.5050, aux.loss_seg: 0.2335, aux.acc_seg: 76.6391, loss: 0.6931
+2021-01-01 08:36:49,650 - mmseg - INFO - Iter [3650/10000]      lr: 6.680e-03, eta: 2:55:24, time: 0.255, data_time: 0.003, memory: 9147, decode.loss_seg: 0.5128, decode.acc_seg: 78.2419, aux.loss_seg: 0.2498, aux.acc_seg: 75.6672, loss: 0.7625
+2021-01-01 08:37:02,460 - mmseg - INFO - Iter [3700/10000]      lr: 6.633e-03, eta: 2:52:02, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4645, decode.acc_seg: 78.2764, aux.loss_seg: 0.2301, aux.acc_seg: 75.7776, loss: 0.6946
+2021-01-01 08:37:18,516 - mmseg - INFO - Iter [3750/10000]      lr: 6.586e-03, eta: 2:48:50, time: 0.321, data_time: 0.068, memory: 9147, decode.loss_seg: 0.4612, decode.acc_seg: 78.3299, aux.loss_seg: 0.2318, aux.acc_seg: 75.3815, loss: 0.6930
+2021-01-01 08:37:31,349 - mmseg - INFO - Iter [3800/10000]      lr: 6.539e-03, eta: 2:45:38, time: 0.257, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4442, decode.acc_seg: 80.3337, aux.loss_seg: 0.2269, aux.acc_seg: 76.9452, loss: 0.6711
+2021-01-01 08:37:44,077 - mmseg - INFO - Iter [3850/10000]      lr: 6.493e-03, eta: 2:42:30, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4402, decode.acc_seg: 81.4404, aux.loss_seg: 0.2268, aux.acc_seg: 78.1306, loss: 0.6670
+2021-01-01 08:37:56,820 - mmseg - INFO - Iter [3900/10000]      lr: 6.446e-03, eta: 2:39:27, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4567, decode.acc_seg: 79.9208, aux.loss_seg: 0.2264, aux.acc_seg: 77.2155, loss: 0.6831
+2021-01-01 08:38:09,674 - mmseg - INFO - Iter [3950/10000]      lr: 6.399e-03, eta: 2:36:28, time: 0.257, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4589, decode.acc_seg: 78.5722, aux.loss_seg: 0.2296, aux.acc_seg: 75.5850, loss: 0.6884
+2021-01-01 08:38:22,422 - mmseg - INFO - Saving checkpoint at 4000 iterations
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>] 500/500, 0.3 task/s, elapsed: 1624s, ETA:     0s[[B^[[A
+
+2021-01-01 09:06:50,589 - mmseg - INFO - per class results:
+2021-01-01 09:06:50,590 - mmseg - INFO - 
++---------------+-------+-------+
+| Class         | IoU   | Acc   |
++---------------+-------+-------+
+| road          | 94.08 | 98.02 |
+| sidewalk      | 64.75 | 73.45 |
+| building      | 81.2  | 88.11 |
+| wall          | 20.24 | 43.63 |
+| fence         | 27.47 | 63.38 |
+| pole          | 46.34 | 60.65 |
+| traffic light | 39.74 | 43.23 |
+| traffic sign  | 61.05 | 69.15 |
+| vegetation    | 87.03 | 92.01 |
+| terrain       | 46.86 | 69.42 |
+| sky           | 88.09 | 96.39 |
+| person        | 65.71 | 85.34 |
+| rider         | 15.29 | 15.78 |
+| car           | 87.34 | 91.73 |
+| truck         | 0.0   | 0.0   |
+| bus           | 37.75 | 67.18 |
+| train         | 22.65 | 57.47 |
+| motorcycle    | 1.06  | 1.06  |
+| bicycle       | 61.86 | 80.17 |
++---------------+-------+-------+
+2021-01-01 09:06:50,590 - mmseg - INFO - Summary:
+2021-01-01 09:06:50,590 - mmseg - INFO - 
++--------+-------+-------+-------+
+| Scope  | mIoU  | mAcc  | aAcc  |
++--------+-------+-------+-------+
+| global | 49.92 | 62.96 | 90.23 |
++--------+-------+-------+-------+
+2021-01-01 09:06:50,843 - mmseg - INFO - Exp name: pspnet_r50-d8_test_cityscapes_aspp_d.py
+2021-01-01 09:06:50,844 - mmseg - INFO - Iter(val) [4000]       mIoU: 0.4992, mAcc: 0.6296, aAcc: 0.9023
+2021-01-01 09:07:03,544 - mmseg - INFO - Iter [4050/10000]      lr: 6.305e-03, eta: 3:12:12, time: 34.408, data_time: 34.157, memory: 9147, decode.loss_seg: 0.4155, decode.acc_seg: 79.7381, aux.loss_seg: 0.2117, aux.acc_seg: 76.8075, loss: 0.6272
+2021-01-01 09:07:19,711 - mmseg - INFO - Iter [4100/10000]      lr: 6.258e-03, eta: 3:08:39, time: 0.323, data_time: 0.067, memory: 9147, decode.loss_seg: 0.4410, decode.acc_seg: 81.1904, aux.loss_seg: 0.2201, aux.acc_seg: 78.4229, loss: 0.6612
+2021-01-01 09:07:32,483 - mmseg - INFO - Iter [4150/10000]      lr: 6.211e-03, eta: 3:05:06, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4369, decode.acc_seg: 80.8397, aux.loss_seg: 0.2149, aux.acc_seg: 77.8521, loss: 0.6518
+2021-01-01 09:07:45,220 - mmseg - INFO - Iter [4200/10000]      lr: 6.164e-03, eta: 3:01:38, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4255, decode.acc_seg: 81.6692, aux.loss_seg: 0.2212, aux.acc_seg: 78.6052, loss: 0.6467
+2021-01-01 09:07:57,939 - mmseg - INFO - Iter [4250/10000]      lr: 6.117e-03, eta: 2:58:14, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3991, decode.acc_seg: 81.4018, aux.loss_seg: 0.2069, aux.acc_seg: 78.0106, loss: 0.6060
+2021-01-01 09:08:10,575 - mmseg - INFO - Iter [4300/10000]      lr: 6.070e-03, eta: 2:54:54, time: 0.253, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4440, decode.acc_seg: 80.9049, aux.loss_seg: 0.2283, aux.acc_seg: 77.2765, loss: 0.6723
+2021-01-01 09:08:23,293 - mmseg - INFO - Iter [4350/10000]      lr: 6.023e-03, eta: 2:51:39, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4361, decode.acc_seg: 80.3993, aux.loss_seg: 0.2197, aux.acc_seg: 77.7734, loss: 0.6558
+2021-01-01 09:08:36,168 - mmseg - INFO - Iter [4400/10000]      lr: 5.976e-03, eta: 2:48:28, time: 0.258, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3946, decode.acc_seg: 82.0492, aux.loss_seg: 0.2027, aux.acc_seg: 79.0647, loss: 0.5973
+2021-01-01 09:08:48,871 - mmseg - INFO - Iter [4450/10000]      lr: 5.929e-03, eta: 2:45:21, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4488, decode.acc_seg: 81.0935, aux.loss_seg: 0.2268, aux.acc_seg: 78.0524, loss: 0.6756
+2021-01-01 09:09:04,985 - mmseg - INFO - Iter [4500/10000]      lr: 5.881e-03, eta: 2:42:23, time: 0.322, data_time: 0.070, memory: 9147, decode.loss_seg: 0.4647, decode.acc_seg: 79.4979, aux.loss_seg: 0.2409, aux.acc_seg: 76.1031, loss: 0.7055
+2021-01-01 09:09:17,767 - mmseg - INFO - Iter [4550/10000]      lr: 5.834e-03, eta: 2:39:23, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4115, decode.acc_seg: 81.3331, aux.loss_seg: 0.2140, aux.acc_seg: 78.3977, loss: 0.6255
+2021-01-01 09:09:30,401 - mmseg - INFO - Iter [4600/10000]      lr: 5.787e-03, eta: 2:36:27, time: 0.253, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3991, decode.acc_seg: 81.2474, aux.loss_seg: 0.2146, aux.acc_seg: 77.8306, loss: 0.6138
+2021-01-01 09:09:43,204 - mmseg - INFO - Iter [4650/10000]      lr: 5.739e-03, eta: 2:33:35, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4461, decode.acc_seg: 80.2683, aux.loss_seg: 0.2244, aux.acc_seg: 77.5502, loss: 0.6705
+2021-01-01 09:09:55,979 - mmseg - INFO - Iter [4700/10000]      lr: 5.692e-03, eta: 2:30:46, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4342, decode.acc_seg: 81.0093, aux.loss_seg: 0.2188, aux.acc_seg: 78.2016, loss: 0.6529
+2021-01-01 09:10:08,672 - mmseg - INFO - Iter [4750/10000]      lr: 5.644e-03, eta: 2:28:01, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3719, decode.acc_seg: 82.6219, aux.loss_seg: 0.1970, aux.acc_seg: 79.3753, loss: 0.5689
+2021-01-01 09:10:21,413 - mmseg - INFO - Iter [4800/10000]      lr: 5.597e-03, eta: 2:25:18, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4001, decode.acc_seg: 81.1675, aux.loss_seg: 0.2062, aux.acc_seg: 77.9397, loss: 0.6063
+2021-01-01 09:10:38,567 - mmseg - INFO - Iter [4850/10000]      lr: 5.549e-03, eta: 2:22:44, time: 0.343, data_time: 0.081, memory: 9147, decode.loss_seg: 0.4262, decode.acc_seg: 79.6907, aux.loss_seg: 0.2124, aux.acc_seg: 77.0289, loss: 0.6386
+2021-01-01 09:10:51,799 - mmseg - INFO - Iter [4900/10000]      lr: 5.502e-03, eta: 2:20:08, time: 0.265, data_time: 0.003, memory: 9147, decode.loss_seg: 0.4140, decode.acc_seg: 80.7566, aux.loss_seg: 0.2205, aux.acc_seg: 76.8503, loss: 0.6345
+2021-01-01 09:11:04,947 - mmseg - INFO - Iter [4950/10000]      lr: 5.454e-03, eta: 2:17:34, time: 0.263, data_time: 0.003, memory: 9147, decode.loss_seg: 0.4124, decode.acc_seg: 81.5312, aux.loss_seg: 0.2127, aux.acc_seg: 78.3955, loss: 0.6250
+2021-01-01 09:11:18,078 - mmseg - INFO - Saving checkpoint at 5000 iterations
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>] 500/500, 0.3 task/s, elapsed: 1626s, ETA:     0s[[B
+
+2021-01-01 09:39:51,850 - mmseg - INFO - per class results:
+2021-01-01 09:39:51,851 - mmseg - INFO - 
++---------------+-------+-------+
+| Class         | IoU   | Acc   |
++---------------+-------+-------+
+| road          | 95.12 | 97.14 |
+| sidewalk      | 70.83 | 84.27 |
+| building      | 86.67 | 93.05 |
+| wall          | 25.0  | 27.12 |
+| fence         | 45.21 | 58.26 |
+| pole          | 53.24 | 63.98 |
+| traffic light | 53.09 | 75.65 |
+| traffic sign  | 66.48 | 77.67 |
+| vegetation    | 85.0  | 88.88 |
+| terrain       | 30.05 | 73.97 |
+| sky           | 84.86 | 96.15 |
+| person        | 69.71 | 79.89 |
+| rider         | 40.67 | 67.09 |
+| car           | 88.88 | 96.57 |
+| truck         | 14.15 | 16.45 |
+| bus           | 44.26 | 86.14 |
+| train         | 1.82  | 2.75  |
+| motorcycle    | 28.98 | 34.54 |
+| bicycle       | 61.9  | 91.72 |
++---------------+-------+-------+
+2021-01-01 09:39:51,851 - mmseg - INFO - Summary:
+2021-01-01 09:39:51,851 - mmseg - INFO - 
++--------+-------+-------+-------+
+| Scope  | mIoU  | mAcc  | aAcc  |
++--------+-------+-------+-------+
+| global | 55.05 | 69.02 | 91.59 |
++--------+-------+-------+-------+
+2021-01-01 09:39:52,105 - mmseg - INFO - Exp name: pspnet_r50-d8_test_cityscapes_aspp_d.py
+2021-01-01 09:39:52,105 - mmseg - INFO - Iter(val) [5000]       mIoU: 0.5505, mAcc: 0.6902, aAcc: 0.9159
+2021-01-01 09:40:04,823 - mmseg - INFO - Iter [5050/10000]      lr: 5.358e-03, eta: 2:40:23, time: 34.518, data_time: 34.266, memory: 9147, decode.loss_seg: 0.3746, decode.acc_seg: 83.9451, aux.loss_seg: 0.1930, aux.acc_seg: 80.8898, loss: 0.5676
+2021-01-01 09:40:17,651 - mmseg - INFO - Iter [5100/10000]      lr: 5.311e-03, eta: 2:37:24, time: 0.257, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4240, decode.acc_seg: 80.4321, aux.loss_seg: 0.2182, aux.acc_seg: 77.2993, loss: 0.6422
+2021-01-01 09:40:30,449 - mmseg - INFO - Iter [5150/10000]      lr: 5.263e-03, eta: 2:34:29, time: 0.256, data_time: 0.003, memory: 9147, decode.loss_seg: 0.4226, decode.acc_seg: 80.2459, aux.loss_seg: 0.2179, aux.acc_seg: 77.1005, loss: 0.6406
+2021-01-01 09:40:43,213 - mmseg - INFO - Iter [5200/10000]      lr: 5.215e-03, eta: 2:31:37, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4103, decode.acc_seg: 81.7105, aux.loss_seg: 0.2123, aux.acc_seg: 78.0692, loss: 0.6226
+2021-01-01 09:40:59,436 - mmseg - INFO - Iter [5250/10000]      lr: 5.167e-03, eta: 2:28:51, time: 0.324, data_time: 0.072, memory: 9147, decode.loss_seg: 0.4034, decode.acc_seg: 80.9506, aux.loss_seg: 0.2046, aux.acc_seg: 78.5269, loss: 0.6079
+2021-01-01 09:41:12,219 - mmseg - INFO - Iter [5300/10000]      lr: 5.119e-03, eta: 2:26:05, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4295, decode.acc_seg: 80.7227, aux.loss_seg: 0.2262, aux.acc_seg: 77.3729, loss: 0.6557
+2021-01-01 09:41:24,928 - mmseg - INFO - Iter [5350/10000]      lr: 5.071e-03, eta: 2:23:22, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3927, decode.acc_seg: 82.5798, aux.loss_seg: 0.2092, aux.acc_seg: 79.1819, loss: 0.6019
+2021-01-01 09:41:37,598 - mmseg - INFO - Iter [5400/10000]      lr: 5.023e-03, eta: 2:20:42, time: 0.253, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3618, decode.acc_seg: 83.2556, aux.loss_seg: 0.1990, aux.acc_seg: 79.3506, loss: 0.5607
+2021-01-01 09:41:50,468 - mmseg - INFO - Iter [5450/10000]      lr: 4.975e-03, eta: 2:18:04, time: 0.257, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3645, decode.acc_seg: 81.8312, aux.loss_seg: 0.1896, aux.acc_seg: 79.2407, loss: 0.5542
+2021-01-01 09:42:03,222 - mmseg - INFO - Iter [5500/10000]      lr: 4.926e-03, eta: 2:15:29, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4122, decode.acc_seg: 81.2823, aux.loss_seg: 0.2150, aux.acc_seg: 77.5976, loss: 0.6273
+2021-01-01 09:42:15,985 - mmseg - INFO - Iter [5550/10000]      lr: 4.878e-03, eta: 2:12:56, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4480, decode.acc_seg: 79.7006, aux.loss_seg: 0.2239, aux.acc_seg: 77.0657, loss: 0.6719
+2021-01-01 09:42:32,123 - mmseg - INFO - Iter [5600/10000]      lr: 4.830e-03, eta: 2:10:29, time: 0.323, data_time: 0.068, memory: 9147, decode.loss_seg: 0.3871, decode.acc_seg: 81.3360, aux.loss_seg: 0.2064, aux.acc_seg: 78.3207, loss: 0.5935
+2021-01-01 09:42:44,842 - mmseg - INFO - Iter [5650/10000]      lr: 4.781e-03, eta: 2:08:01, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4325, decode.acc_seg: 81.4839, aux.loss_seg: 0.2281, aux.acc_seg: 77.7007, loss: 0.6607
+2021-01-01 09:42:57,476 - mmseg - INFO - Iter [5700/10000]      lr: 4.733e-03, eta: 2:05:36, time: 0.253, data_time: 0.002, memory: 9147, decode.loss_seg: 0.4269, decode.acc_seg: 81.1855, aux.loss_seg: 0.2231, aux.acc_seg: 77.5727, loss: 0.6501
+2021-01-01 09:43:10,170 - mmseg - INFO - Iter [5750/10000]      lr: 4.684e-03, eta: 2:03:13, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3767, decode.acc_seg: 82.4281, aux.loss_seg: 0.1948, aux.acc_seg: 79.6965, loss: 0.5715
+2021-01-01 09:43:22,955 - mmseg - INFO - Iter [5800/10000]      lr: 4.636e-03, eta: 2:00:52, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3858, decode.acc_seg: 82.2225, aux.loss_seg: 0.2000, aux.acc_seg: 79.0665, loss: 0.5858
+2021-01-01 09:43:35,725 - mmseg - INFO - Iter [5850/10000]      lr: 4.587e-03, eta: 1:58:34, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3695, decode.acc_seg: 82.4414, aux.loss_seg: 0.1919, aux.acc_seg: 79.2282, loss: 0.5614
+2021-01-01 09:43:48,468 - mmseg - INFO - Iter [5900/10000]      lr: 4.538e-03, eta: 1:56:17, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3493, decode.acc_seg: 82.4226, aux.loss_seg: 0.1856, aux.acc_seg: 79.4376, loss: 0.5350
+2021-01-01 09:44:01,234 - mmseg - INFO - Iter [5950/10000]      lr: 4.490e-03, eta: 1:54:03, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3780, decode.acc_seg: 81.8778, aux.loss_seg: 0.1973, aux.acc_seg: 78.9303, loss: 0.5753
+2021-01-01 09:44:17,269 - mmseg - INFO - Saving checkpoint at 6000 iterations
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>] 500/500, 0.3 task/s, elapsed: 1624s, ETA:     0s^[[B
+
+2021-01-01 10:12:50,476 - mmseg - INFO - per class results:
+2021-01-01 10:12:50,477 - mmseg - INFO - 
++---------------+-------+-------+
+| Class         | IoU   | Acc   |
++---------------+-------+-------+
+| road          | 95.38 | 96.71 |
+| sidewalk      | 71.9  | 89.02 |
+| building      | 87.54 | 93.43 |
+| wall          | 18.37 | 19.65 |
+| fence         | 43.67 | 52.71 |
+| pole          | 51.3  | 69.16 |
+| traffic light | 55.69 | 71.18 |
+| traffic sign  | 65.03 | 80.41 |
+| vegetation    | 89.14 | 94.94 |
+| terrain       | 47.25 | 67.66 |
+| sky           | 90.48 | 94.33 |
+| person        | 73.25 | 87.58 |
+| rider         | 41.0  | 49.52 |
+| car           | 89.47 | 97.31 |
+| truck         | 17.46 | 18.63 |
+| bus           | 51.05 | 61.14 |
+| train         | 37.48 | 72.43 |
+| motorcycle    | 35.46 | 53.46 |
+| bicycle       | 65.13 | 88.22 |
++---------------+-------+-------+
+2021-01-01 10:12:50,477 - mmseg - INFO - Summary:
+2021-01-01 10:12:50,477 - mmseg - INFO - 
++--------+-------+-------+-------+
+| Scope  | mIoU  | mAcc  | aAcc  |
++--------+-------+-------+-------+
+| global | 59.27 | 71.45 | 92.78 |
++--------+-------+-------+-------+
+2021-01-01 10:12:50,731 - mmseg - INFO - Exp name: pspnet_r50-d8_test_cityscapes_aspp_d.py
+2021-01-01 10:12:50,731 - mmseg - INFO - Iter(val) [6000]       mIoU: 0.5927, mAcc: 0.7145, aAcc: 0.9278
+2021-01-01 10:13:03,416 - mmseg - INFO - Iter [6050/10000]      lr: 4.392e-03, eta: 2:08:10, time: 34.510, data_time: 34.258, memory: 9147, decode.loss_seg: 0.3707, decode.acc_seg: 82.3657, aux.loss_seg: 0.1993, aux.acc_seg: 79.1551, loss: 0.5701
+2021-01-01 10:13:16,077 - mmseg - INFO - Iter [6100/10000]      lr: 4.343e-03, eta: 2:05:39, time: 0.253, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3686, decode.acc_seg: 81.7537, aux.loss_seg: 0.1944, aux.acc_seg: 78.3648, loss: 0.5630
+2021-01-01 10:13:28,884 - mmseg - INFO - Iter [6150/10000]      lr: 4.294e-03, eta: 2:03:09, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3683, decode.acc_seg: 82.4909, aux.loss_seg: 0.2003, aux.acc_seg: 79.0828, loss: 0.5686
+2021-01-01 10:13:41,726 - mmseg - INFO - Iter [6200/10000]      lr: 4.245e-03, eta: 2:00:43, time: 0.257, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3550, decode.acc_seg: 82.2757, aux.loss_seg: 0.1924, aux.acc_seg: 78.6959, loss: 0.5474
+2021-01-01 10:13:54,541 - mmseg - INFO - Iter [6250/10000]      lr: 4.196e-03, eta: 1:58:18, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3988, decode.acc_seg: 81.7726, aux.loss_seg: 0.2115, aux.acc_seg: 78.4489, loss: 0.6103
+2021-01-01 10:14:07,254 - mmseg - INFO - Iter [6300/10000]      lr: 4.147e-03, eta: 1:55:55, time: 0.254, data_time: 0.003, memory: 9147, decode.loss_seg: 0.3545, decode.acc_seg: 83.7315, aux.loss_seg: 0.1876, aux.acc_seg: 80.6974, loss: 0.5422
+2021-01-01 10:14:23,433 - mmseg - INFO - Iter [6350/10000]      lr: 4.098e-03, eta: 1:53:36, time: 0.324, data_time: 0.068, memory: 9147, decode.loss_seg: 0.3785, decode.acc_seg: 80.8084, aux.loss_seg: 0.1938, aux.acc_seg: 77.3472, loss: 0.5723
+2021-01-01 10:14:36,146 - mmseg - INFO - Iter [6400/10000]      lr: 4.048e-03, eta: 1:51:18, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3864, decode.acc_seg: 82.3702, aux.loss_seg: 0.2029, aux.acc_seg: 78.9389, loss: 0.5893
+2021-01-01 10:14:48,882 - mmseg - INFO - Iter [6450/10000]      lr: 3.999e-03, eta: 1:49:01, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3507, decode.acc_seg: 82.3481, aux.loss_seg: 0.1875, aux.acc_seg: 79.3141, loss: 0.5382
+2021-01-01 10:15:01,546 - mmseg - INFO - Iter [6500/10000]      lr: 3.950e-03, eta: 1:46:46, time: 0.253, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3653, decode.acc_seg: 82.6982, aux.loss_seg: 0.1885, aux.acc_seg: 79.7620, loss: 0.5538
+2021-01-01 10:15:14,299 - mmseg - INFO - Iter [6550/10000]      lr: 3.900e-03, eta: 1:44:33, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3648, decode.acc_seg: 82.4521, aux.loss_seg: 0.1887, aux.acc_seg: 79.3263, loss: 0.5534
+2021-01-01 10:15:26,984 - mmseg - INFO - Iter [6600/10000]      lr: 3.850e-03, eta: 1:42:22, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3980, decode.acc_seg: 81.3889, aux.loss_seg: 0.2035, aux.acc_seg: 78.1599, loss: 0.6014
+2021-01-01 10:15:39,735 - mmseg - INFO - Iter [6650/10000]      lr: 3.801e-03, eta: 1:40:12, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3821, decode.acc_seg: 80.9477, aux.loss_seg: 0.1967, aux.acc_seg: 78.3521, loss: 0.5788
+2021-01-01 10:15:55,838 - mmseg - INFO - Iter [6700/10000]      lr: 3.751e-03, eta: 1:38:06, time: 0.322, data_time: 0.060, memory: 9147, decode.loss_seg: 0.3609, decode.acc_seg: 83.5427, aux.loss_seg: 0.1884, aux.acc_seg: 80.4048, loss: 0.5493
+2021-01-01 10:16:08,536 - mmseg - INFO - Iter [6750/10000]      lr: 3.701e-03, eta: 1:36:00, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3847, decode.acc_seg: 81.8660, aux.loss_seg: 0.1942, aux.acc_seg: 79.0094, loss: 0.5789
+2021-01-01 10:16:21,256 - mmseg - INFO - Iter [6800/10000]      lr: 3.651e-03, eta: 1:33:56, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3765, decode.acc_seg: 83.2434, aux.loss_seg: 0.1979, aux.acc_seg: 79.9958, loss: 0.5744
+2021-01-01 10:16:34,010 - mmseg - INFO - Iter [6850/10000]      lr: 3.601e-03, eta: 1:31:53, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3341, decode.acc_seg: 83.7364, aux.loss_seg: 0.1814, aux.acc_seg: 80.2939, loss: 0.5155
+2021-01-01 10:16:46,781 - mmseg - INFO - Iter [6900/10000]      lr: 3.551e-03, eta: 1:29:52, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3294, decode.acc_seg: 84.2352, aux.loss_seg: 0.1843, aux.acc_seg: 80.5172, loss: 0.5137
+2021-01-01 10:16:59,498 - mmseg - INFO - Iter [6950/10000]      lr: 3.501e-03, eta: 1:27:52, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3689, decode.acc_seg: 80.4162, aux.loss_seg: 0.1911, aux.acc_seg: 77.6211, loss: 0.5600
+2021-01-01 10:17:12,259 - mmseg - INFO - Saving checkpoint at 7000 iterations
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>] 500/500, 0.3 task/s, elapsed: 1625s, ETA:     0s
+
+2021-01-01 10:45:50,368 - mmseg - INFO - per class results:
+2021-01-01 10:45:50,368 - mmseg - INFO - 
++---------------+-------+-------+
+| Class         | IoU   | Acc   |
++---------------+-------+-------+
+| road          | 94.34 | 95.48 |
+| sidewalk      | 74.76 | 88.42 |
+| building      | 85.64 | 91.98 |
+| wall          | 21.38 | 23.74 |
+| fence         | 45.42 | 52.23 |
+| pole          | 44.15 | 70.4  |
+| traffic light | 51.43 | 78.99 |
+| traffic sign  | 64.86 | 80.6  |
+| vegetation    | 88.84 | 94.21 |
+| terrain       | 50.99 | 68.53 |
+| sky           | 89.68 | 92.68 |
+| person        | 72.47 | 89.54 |
+| rider         | 43.3  | 55.52 |
+| car           | 81.74 | 96.69 |
+| truck         | 23.4  | 29.86 |
+| bus           | 54.23 | 79.86 |
+| train         | 19.44 | 49.79 |
+| motorcycle    | 41.27 | 56.91 |
+| bicycle       | 68.14 | 86.34 |
++---------------+-------+-------+
+2021-01-01 10:45:50,369 - mmseg - INFO - Summary:
+2021-01-01 10:45:50,369 - mmseg - INFO - 
++--------+-------+-------+-------+
+| Scope  | mIoU  | mAcc  | aAcc  |
++--------+-------+-------+-------+
+| global | 58.71 | 72.72 | 91.92 |
++--------+-------+-------+-------+
+2021-01-01 10:45:50,663 - mmseg - INFO - Exp name: pspnet_r50-d8_test_cityscapes_aspp_d.py
+2021-01-01 10:45:50,663 - mmseg - INFO - Iter(val) [7000]       mIoU: 0.5871, mAcc: 0.7272, aAcc: 0.9192
+2021-01-01 10:46:03,699 - mmseg - INFO - Iter [7050/10000]      lr: 3.401e-03, eta: 1:35:51, time: 34.613, data_time: 34.355, memory: 9147, decode.loss_seg: 0.3388, decode.acc_seg: 84.0713, aux.loss_seg: 0.1774, aux.acc_seg: 81.3903, loss: 0.5161
+2021-01-01 10:46:20,804 - mmseg - INFO - Iter [7100/10000]      lr: 3.350e-03, eta: 1:33:41, time: 0.342, data_time: 0.073, memory: 9147, decode.loss_seg: 0.3491, decode.acc_seg: 83.6609, aux.loss_seg: 0.1931, aux.acc_seg: 79.9781, loss: 0.5422
+2021-01-01 10:46:33,974 - mmseg - INFO - Iter [7150/10000]      lr: 3.300e-03, eta: 1:31:31, time: 0.263, data_time: 0.003, memory: 9147, decode.loss_seg: 0.3402, decode.acc_seg: 83.1456, aux.loss_seg: 0.1841, aux.acc_seg: 79.8153, loss: 0.5243
+2021-01-01 10:46:47,205 - mmseg - INFO - Iter [7200/10000]      lr: 3.249e-03, eta: 1:29:22, time: 0.265, data_time: 0.003, memory: 9147, decode.loss_seg: 0.3426, decode.acc_seg: 82.8911, aux.loss_seg: 0.1768, aux.acc_seg: 80.5056, loss: 0.5195
+2021-01-01 10:47:00,354 - mmseg - INFO - Iter [7250/10000]      lr: 3.199e-03, eta: 1:27:15, time: 0.263, data_time: 0.003, memory: 9147, decode.loss_seg: 0.3450, decode.acc_seg: 83.2473, aux.loss_seg: 0.1793, aux.acc_seg: 80.3794, loss: 0.5243
+2021-01-01 10:47:13,552 - mmseg - INFO - Iter [7300/10000]      lr: 3.148e-03, eta: 1:25:09, time: 0.264, data_time: 0.003, memory: 9147, decode.loss_seg: 0.3521, decode.acc_seg: 83.7774, aux.loss_seg: 0.1935, aux.acc_seg: 79.9948, loss: 0.5456
+2021-01-01 10:47:26,612 - mmseg - INFO - Iter [7350/10000]      lr: 3.097e-03, eta: 1:23:05, time: 0.261, data_time: 0.003, memory: 9147, decode.loss_seg: 0.3494, decode.acc_seg: 83.2026, aux.loss_seg: 0.1935, aux.acc_seg: 79.5908, loss: 0.5429
+2021-01-01 10:47:39,755 - mmseg - INFO - Iter [7400/10000]      lr: 3.046e-03, eta: 1:21:03, time: 0.263, data_time: 0.003, memory: 9147, decode.loss_seg: 0.3539, decode.acc_seg: 80.8609, aux.loss_seg: 0.1866, aux.acc_seg: 77.7668, loss: 0.5405
+2021-01-01 10:47:56,890 - mmseg - INFO - Iter [7450/10000]      lr: 2.995e-03, eta: 1:19:03, time: 0.343, data_time: 0.078, memory: 9147, decode.loss_seg: 0.3842, decode.acc_seg: 82.7481, aux.loss_seg: 0.2055, aux.acc_seg: 78.9055, loss: 0.5897
+2021-01-01 10:48:09,950 - mmseg - INFO - Iter [7500/10000]      lr: 2.944e-03, eta: 1:17:04, time: 0.261, data_time: 0.003, memory: 9147, decode.loss_seg: 0.3267, decode.acc_seg: 83.1600, aux.loss_seg: 0.1838, aux.acc_seg: 79.4666, loss: 0.5105
+2021-01-01 10:48:23,106 - mmseg - INFO - Iter [7550/10000]      lr: 2.893e-03, eta: 1:15:05, time: 0.263, data_time: 0.003, memory: 9147, decode.loss_seg: 0.3520, decode.acc_seg: 81.5445, aux.loss_seg: 0.1922, aux.acc_seg: 78.2594, loss: 0.5441
+2021-01-01 10:48:36,185 - mmseg - INFO - Iter [7600/10000]      lr: 2.841e-03, eta: 1:13:08, time: 0.262, data_time: 0.003, memory: 9147, decode.loss_seg: 0.3421, decode.acc_seg: 82.6127, aux.loss_seg: 0.1841, aux.acc_seg: 79.2836, loss: 0.5262
+2021-01-01 10:48:49,363 - mmseg - INFO - Iter [7650/10000]      lr: 2.790e-03, eta: 1:11:13, time: 0.264, data_time: 0.003, memory: 9147, decode.loss_seg: 0.3685, decode.acc_seg: 82.2930, aux.loss_seg: 0.1943, aux.acc_seg: 78.8586, loss: 0.5628
+2021-01-01 10:49:02,563 - mmseg - INFO - Iter [7700/10000]      lr: 2.739e-03, eta: 1:09:19, time: 0.264, data_time: 0.003, memory: 9147, decode.loss_seg: 0.3399, decode.acc_seg: 83.0829, aux.loss_seg: 0.1725, aux.acc_seg: 80.7937, loss: 0.5124
+2021-01-01 10:49:15,784 - mmseg - INFO - Iter [7750/10000]      lr: 2.687e-03, eta: 1:07:26, time: 0.264, data_time: 0.003, memory: 9147, decode.loss_seg: 0.3525, decode.acc_seg: 83.8349, aux.loss_seg: 0.1842, aux.acc_seg: 80.8874, loss: 0.5367
+2021-01-01 10:49:28,934 - mmseg - INFO - Iter [7800/10000]      lr: 2.635e-03, eta: 1:05:34, time: 0.263, data_time: 0.003, memory: 9147, decode.loss_seg: 0.3243, decode.acc_seg: 84.1479, aux.loss_seg: 0.1721, aux.acc_seg: 81.1010, loss: 0.4964
+2021-01-01 10:49:46,213 - mmseg - INFO - Iter [7850/10000]      lr: 2.583e-03, eta: 1:03:45, time: 0.346, data_time: 0.075, memory: 9147, decode.loss_seg: 0.3748, decode.acc_seg: 82.6240, aux.loss_seg: 0.1911, aux.acc_seg: 79.3864, loss: 0.5659
+2021-01-01 10:49:59,131 - mmseg - INFO - Iter [7900/10000]      lr: 2.531e-03, eta: 1:01:56, time: 0.258, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3485, decode.acc_seg: 83.2152, aux.loss_seg: 0.1843, aux.acc_seg: 80.2783, loss: 0.5328
+2021-01-01 10:50:11,810 - mmseg - INFO - Iter [7950/10000]      lr: 2.479e-03, eta: 1:00:08, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3620, decode.acc_seg: 82.6218, aux.loss_seg: 0.1955, aux.acc_seg: 79.1238, loss: 0.5575
+2021-01-01 10:50:24,426 - mmseg - INFO - Saving checkpoint at 8000 iterations
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>] 500/500, 0.3 task/s, elapsed: 1626s, ETA:     0s[[B
+
+2021-01-01 11:18:59,949 - mmseg - INFO - per class results:
+2021-01-01 11:18:59,949 - mmseg - INFO - 
++---------------+-------+-------+
+| Class         | IoU   | Acc   |
++---------------+-------+-------+
+| road          | 95.34 | 96.68 |
+| sidewalk      | 76.41 | 88.36 |
+| building      | 85.81 | 91.73 |
+| wall          | 31.14 | 36.89 |
+| fence         | 49.33 | 66.52 |
+| pole          | 55.75 | 67.56 |
+| traffic light | 59.78 | 75.1  |
+| traffic sign  | 67.83 | 81.61 |
+| vegetation    | 90.57 | 95.92 |
+| terrain       | 51.68 | 57.45 |
+| sky           | 86.1  | 97.13 |
+| person        | 75.66 | 87.95 |
+| rider         | 50.38 | 67.84 |
+| car           | 89.97 | 95.19 |
+| truck         | 22.39 | 25.24 |
+| bus           | 35.52 | 57.15 |
+| train         | 10.34 | 89.43 |
+| motorcycle    | 41.17 | 44.42 |
+| bicycle       | 71.32 | 87.19 |
++---------------+-------+-------+
+2021-01-01 11:18:59,950 - mmseg - INFO - Summary:
+2021-01-01 11:18:59,950 - mmseg - INFO - 
++--------+-------+-------+-------+
+| Scope  | mIoU  | mAcc  | aAcc  |
++--------+-------+-------+-------+
+| global | 60.34 | 74.18 | 92.68 |
++--------+-------+-------+-------+
+2021-01-01 11:19:00,198 - mmseg - INFO - Exp name: pspnet_r50-d8_test_cityscapes_aspp_d.py
+2021-01-01 11:19:00,198 - mmseg - INFO - Iter(val) [8000]       mIoU: 0.6034, mAcc: 0.7418, aAcc: 0.9268
+2021-01-01 11:19:12,804 - mmseg - INFO - Iter [8050/10000]      lr: 2.374e-03, eta: 1:03:28, time: 34.552, data_time: 34.303, memory: 9147, decode.loss_seg: 0.3432, decode.acc_seg: 83.0488, aux.loss_seg: 0.1821, aux.acc_seg: 80.1720, loss: 0.5253
+2021-01-01 11:19:25,483 - mmseg - INFO - Iter [8100/10000]      lr: 2.322e-03, eta: 1:01:30, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3399, decode.acc_seg: 82.4802, aux.loss_seg: 0.1833, aux.acc_seg: 78.9498, loss: 0.5232
+2021-01-01 11:19:38,094 - mmseg - INFO - Iter [8150/10000]      lr: 2.269e-03, eta: 0:59:34, time: 0.252, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3482, decode.acc_seg: 84.0127, aux.loss_seg: 0.1883, aux.acc_seg: 80.3831, loss: 0.5365
+2021-01-01 11:19:54,266 - mmseg - INFO - Iter [8200/10000]      lr: 2.216e-03, eta: 0:57:40, time: 0.323, data_time: 0.065, memory: 9147, decode.loss_seg: 0.3316, decode.acc_seg: 83.3822, aux.loss_seg: 0.1752, aux.acc_seg: 80.5273, loss: 0.5068
+2021-01-01 11:20:06,874 - mmseg - INFO - Iter [8250/10000]      lr: 2.163e-03, eta: 0:55:46, time: 0.252, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3370, decode.acc_seg: 83.7072, aux.loss_seg: 0.1807, aux.acc_seg: 80.6937, loss: 0.5177
+2021-01-01 11:20:19,531 - mmseg - INFO - Iter [8300/10000]      lr: 2.110e-03, eta: 0:53:53, time: 0.253, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3434, decode.acc_seg: 83.3458, aux.loss_seg: 0.1866, aux.acc_seg: 80.2089, loss: 0.5299
+2021-01-01 11:20:32,359 - mmseg - INFO - Iter [8350/10000]      lr: 2.057e-03, eta: 0:52:02, time: 0.257, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3366, decode.acc_seg: 83.8716, aux.loss_seg: 0.1859, aux.acc_seg: 80.2245, loss: 0.5225
+2021-01-01 11:20:45,106 - mmseg - INFO - Iter [8400/10000]      lr: 2.004e-03, eta: 0:50:12, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3046, decode.acc_seg: 83.6811, aux.loss_seg: 0.1667, aux.acc_seg: 80.4668, loss: 0.4713
+2021-01-01 11:20:57,885 - mmseg - INFO - Iter [8450/10000]      lr: 1.950e-03, eta: 0:48:23, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3214, decode.acc_seg: 83.4252, aux.loss_seg: 0.1754, aux.acc_seg: 80.1827, loss: 0.4968
+2021-01-01 11:21:10,696 - mmseg - INFO - Iter [8500/10000]      lr: 1.896e-03, eta: 0:46:35, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3154, decode.acc_seg: 83.7891, aux.loss_seg: 0.1714, aux.acc_seg: 81.0379, loss: 0.4868
+2021-01-01 11:21:23,636 - mmseg - INFO - Iter [8550/10000]      lr: 1.842e-03, eta: 0:44:48, time: 0.259, data_time: 0.002, memory: 9147, decode.loss_seg: 0.2970, decode.acc_seg: 84.7065, aux.loss_seg: 0.1565, aux.acc_seg: 82.2724, loss: 0.4535
+2021-01-01 11:21:39,854 - mmseg - INFO - Iter [8600/10000]      lr: 1.788e-03, eta: 0:43:03, time: 0.324, data_time: 0.071, memory: 9147, decode.loss_seg: 0.3393, decode.acc_seg: 83.0019, aux.loss_seg: 0.1830, aux.acc_seg: 79.8328, loss: 0.5223
+2021-01-01 11:21:52,580 - mmseg - INFO - Iter [8650/10000]      lr: 1.734e-03, eta: 0:41:18, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3304, decode.acc_seg: 83.6406, aux.loss_seg: 0.1795, aux.acc_seg: 80.0701, loss: 0.5099
+^[[B2021-01-01 11:22:05,332 - mmseg - INFO - Iter [8700/10000]  lr: 1.679e-03, eta: 0:39:35, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3095, decode.acc_seg: 84.4411, aux.loss_seg: 0.1687, aux.acc_seg: 81.4616, loss: 0.4782
+2021-01-01 11:22:18,100 - mmseg - INFO - Iter [8750/10000]      lr: 1.625e-03, eta: 0:37:52, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3406, decode.acc_seg: 84.1323, aux.loss_seg: 0.1886, aux.acc_seg: 80.5567, loss: 0.5292
+2021-01-01 11:22:30,887 - mmseg - INFO - Iter [8800/10000]      lr: 1.570e-03, eta: 0:36:10, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3515, decode.acc_seg: 82.9254, aux.loss_seg: 0.1850, aux.acc_seg: 79.9291, loss: 0.5365
+2021-01-01 11:22:43,723 - mmseg - INFO - Iter [8850/10000]      lr: 1.515e-03, eta: 0:34:30, time: 0.257, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3092, decode.acc_seg: 83.3021, aux.loss_seg: 0.1671, aux.acc_seg: 80.4306, loss: 0.4763
+2021-01-01 11:22:56,443 - mmseg - INFO - Iter [8900/10000]      lr: 1.459e-03, eta: 0:32:50, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3090, decode.acc_seg: 83.7438, aux.loss_seg: 0.1620, aux.acc_seg: 81.4088, loss: 0.4709
+2021-01-01 11:23:12,444 - mmseg - INFO - Iter [8950/10000]      lr: 1.403e-03, eta: 0:31:12, time: 0.320, data_time: 0.064, memory: 9147, decode.loss_seg: 0.3176, decode.acc_seg: 84.1174, aux.loss_seg: 0.1714, aux.acc_seg: 81.2786, loss: 0.4890
+2021-01-01 11:23:25,264 - mmseg - INFO - Saving checkpoint at 9000 iterations
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>] 500/500, 0.3 task/s, elapsed: 1625s, ETA:     0s
+
+2021-01-01 11:52:01,766 - mmseg - INFO - per class results:
+2021-01-01 11:52:01,767 - mmseg - INFO - 
++---------------+-------+-------+
+| Class         | IoU   | Acc   |
++---------------+-------+-------+
+| road          | 96.96 | 98.19 |
+| sidewalk      | 79.05 | 90.02 |
+| building      | 89.06 | 94.21 |
+| wall          | 37.98 | 50.07 |
+| fence         | 53.9  | 65.29 |
+| pole          | 57.9  | 69.73 |
+| traffic light | 60.2  | 75.67 |
+| traffic sign  | 70.44 | 80.99 |
+| vegetation    | 90.99 | 96.0  |
+| terrain       | 57.19 | 69.27 |
+| sky           | 92.83 | 96.77 |
+| person        | 76.84 | 89.33 |
+| rider         | 51.33 | 67.91 |
+| car           | 91.95 | 97.01 |
+| truck         | 30.98 | 33.15 |
+| bus           | 50.83 | 61.55 |
+| train         | 28.36 | 78.63 |
+| motorcycle    | 38.49 | 42.73 |
+| bicycle       | 71.65 | 87.38 |
++---------------+-------+-------+
+2021-01-01 11:52:01,767 - mmseg - INFO - Summary:
+2021-01-01 11:52:01,768 - mmseg - INFO - 
++--------+-------+-------+-------+
+| Scope  | mIoU  | mAcc  | aAcc  |
++--------+-------+-------+-------+
+| global | 64.57 | 75.99 | 94.27 |
++--------+-------+-------+-------+
+2021-01-01 11:52:02,027 - mmseg - INFO - Exp name: pspnet_r50-d8_test_cityscapes_aspp_d.py
+2021-01-01 11:52:02,027 - mmseg - INFO - Iter(val) [9000]       mIoU: 0.6457, mAcc: 0.7599, aAcc: 0.9427
+2021-01-01 11:52:14,660 - mmseg - INFO - Iter [9050/10000]      lr: 1.291e-03, eta: 0:30:56, time: 34.574, data_time: 34.323, memory: 9147, decode.loss_seg: 0.3284, decode.acc_seg: 82.2762, aux.loss_seg: 0.1848, aux.acc_seg: 78.4680, loss: 0.5132
+2021-01-01 11:52:27,371 - mmseg - INFO - Iter [9100/10000]      lr: 1.235e-03, eta: 0:29:10, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3251, decode.acc_seg: 84.1238, aux.loss_seg: 0.1673, aux.acc_seg: 81.8771, loss: 0.4924
+2021-01-01 11:52:40,081 - mmseg - INFO - Iter [9150/10000]      lr: 1.178e-03, eta: 0:27:25, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3124, decode.acc_seg: 83.6944, aux.loss_seg: 0.1684, aux.acc_seg: 80.7833, loss: 0.4808
+2021-01-01 11:52:52,806 - mmseg - INFO - Iter [9200/10000]      lr: 1.121e-03, eta: 0:25:41, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3320, decode.acc_seg: 83.4616, aux.loss_seg: 0.1808, aux.acc_seg: 80.0202, loss: 0.5127
+2021-01-01 11:53:05,565 - mmseg - INFO - Iter [9250/10000]      lr: 1.063e-03, eta: 0:23:58, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3247, decode.acc_seg: 83.4880, aux.loss_seg: 0.1737, aux.acc_seg: 80.7081, loss: 0.4984
+2021-01-01 11:53:18,317 - mmseg - INFO - Iter [9300/10000]      lr: 1.005e-03, eta: 0:22:16, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3339, decode.acc_seg: 84.6161, aux.loss_seg: 0.1834, aux.acc_seg: 80.9167, loss: 0.5173
+2021-01-01 11:53:34,543 - mmseg - INFO - Iter [9350/10000]      lr: 9.470e-04, eta: 0:20:35, time: 0.324, data_time: 0.069, memory: 9147, decode.loss_seg: 0.2975, decode.acc_seg: 84.0339, aux.loss_seg: 0.1585, aux.acc_seg: 81.1745, loss: 0.4560
+2021-01-01 11:53:47,297 - mmseg - INFO - Iter [9400/10000]      lr: 8.882e-04, eta: 0:18:55, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.2977, decode.acc_seg: 84.2533, aux.loss_seg: 0.1637, aux.acc_seg: 81.0521, loss: 0.4614
+2021-01-01 11:54:00,021 - mmseg - INFO - Iter [9450/10000]      lr: 8.289e-04, eta: 0:17:15, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.2904, decode.acc_seg: 85.1804, aux.loss_seg: 0.1665, aux.acc_seg: 81.7100, loss: 0.4569
+2021-01-01 11:54:12,854 - mmseg - INFO - Iter [9500/10000]      lr: 7.691e-04, eta: 0:15:37, time: 0.257, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3128, decode.acc_seg: 84.8680, aux.loss_seg: 0.1737, aux.acc_seg: 81.5754, loss: 0.4865
+2021-01-01 11:54:25,584 - mmseg - INFO - Iter [9550/10000]      lr: 7.087e-04, eta: 0:13:59, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3452, decode.acc_seg: 83.8864, aux.loss_seg: 0.1865, aux.acc_seg: 80.7537, loss: 0.5316
+2021-01-01 11:54:38,368 - mmseg - INFO - Iter [9600/10000]      lr: 6.476e-04, eta: 0:12:23, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.2913, decode.acc_seg: 84.8041, aux.loss_seg: 0.1693, aux.acc_seg: 81.2331, loss: 0.4606
+2021-01-01 11:54:51,167 - mmseg - INFO - Iter [9650/10000]      lr: 5.857e-04, eta: 0:10:47, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3219, decode.acc_seg: 84.2656, aux.loss_seg: 0.1789, aux.acc_seg: 80.8166, loss: 0.5008
+2021-01-01 11:55:07,353 - mmseg - INFO - Iter [9700/10000]      lr: 5.230e-04, eta: 0:09:12, time: 0.324, data_time: 0.070, memory: 9147, decode.loss_seg: 0.2967, decode.acc_seg: 83.2451, aux.loss_seg: 0.1618, aux.acc_seg: 80.3562, loss: 0.4585
+2021-01-01 11:55:20,041 - mmseg - INFO - Iter [9750/10000]      lr: 4.592e-04, eta: 0:07:38, time: 0.254, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3267, decode.acc_seg: 83.5240, aux.loss_seg: 0.1764, aux.acc_seg: 80.1125, loss: 0.5032
+2021-01-01 11:55:32,705 - mmseg - INFO - Iter [9800/10000]      lr: 3.941e-04, eta: 0:06:05, time: 0.253, data_time: 0.002, memory: 9147, decode.loss_seg: 0.2925, decode.acc_seg: 85.3670, aux.loss_seg: 0.1585, aux.acc_seg: 82.6147, loss: 0.4510
+2021-01-01 11:55:45,474 - mmseg - INFO - Iter [9850/10000]      lr: 3.274e-04, eta: 0:04:32, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.2862, decode.acc_seg: 85.3196, aux.loss_seg: 0.1496, aux.acc_seg: 82.9717, loss: 0.4358
+2021-01-01 11:55:58,231 - mmseg - INFO - Iter [9900/10000]      lr: 2.583e-04, eta: 0:03:00, time: 0.255, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3094, decode.acc_seg: 83.6295, aux.loss_seg: 0.1754, aux.acc_seg: 80.0406, loss: 0.4848
+2021-01-01 11:56:11,020 - mmseg - INFO - Iter [9950/10000]      lr: 1.856e-04, eta: 0:01:30, time: 0.256, data_time: 0.002, memory: 9147, decode.loss_seg: 0.3025, decode.acc_seg: 82.7088, aux.loss_seg: 0.1664, aux.acc_seg: 79.5655, loss: 0.4689
+2021-01-01 11:56:23,615 - mmseg - INFO - Saving checkpoint at 10000 iterations
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>] 500/500, 0.3 task/s, elapsed: 1622s, ETA:     0s
+
+2021-01-01 12:24:54,952 - mmseg - INFO - per class results:
+2021-01-01 12:24:54,952 - mmseg - INFO - 
++---------------+-------+-------+
+| Class         | IoU   | Acc   |
++---------------+-------+-------+
+| road          | 96.68 | 97.74 |
+| sidewalk      | 78.83 | 90.41 |
+| building      | 89.0  | 93.81 |
+| wall          | 38.35 | 51.38 |
+| fence         | 53.8  | 70.2  |
+| pole          | 57.6  | 67.51 |
+| traffic light | 61.45 | 79.55 |
+| traffic sign  | 71.29 | 81.67 |
+| vegetation    | 91.17 | 96.05 |
+| terrain       | 55.26 | 72.47 |
+| sky           | 91.49 | 96.2  |
+| person        | 77.9  | 89.23 |
+| rider         | 51.28 | 65.38 |
+| car           | 92.37 | 97.09 |
+| truck         | 38.32 | 44.6  |
+| bus           | 56.5  | 76.43 |
+| train         | 25.71 | 74.93 |
+| motorcycle    | 46.03 | 56.09 |
+| bicycle       | 71.63 | 87.83 |
++---------------+-------+-------+
+2021-01-01 12:24:54,952 - mmseg - INFO - Summary:
+2021-01-01 12:24:54,953 - mmseg - INFO - 
++--------+-------+-------+-------+
+| Scope  | mIoU  | mAcc  | aAcc  |
++--------+-------+-------+-------+
+| global | 65.51 | 78.35 | 94.18 |
++--------+-------+-------+-------+
+2021-01-01 12:24:55,242 - mmseg - INFO - Exp name: pspnet_r50-d8_test_cityscapes_aspp_d.py
+2021-01-01 12:24:55,242 - mmseg - INFO - Iter(val) [10000]      mIoU: 0.6551, mAcc: 0.7835, aAcc: 0.9418
